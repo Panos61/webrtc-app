@@ -1,0 +1,10 @@
+.preview {
+  display: flex;
+  justify-content: center;
+}
+
+.preview_avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: 18%;
+}

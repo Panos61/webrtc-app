@@ -1,5 +1,21 @@
-.main {
+.pre_meeting_screen {
   display: grid;
-  place-items: center;
-  margin-top: 128px;
+  grid-template-columns: 366px 1fr;
+  grid-template-rows: 100vh;
+}
+
+.title {
+  color: white;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' preserveAspectRatio='none' viewBox='0 0 256 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1161%26quot%3b)' fill='none'%3e%3crect width='256' height='800' x='0' y='0' fill='rgba(9%2c 30%2c 51%2c 1)'%3e%3c/rect%3e%3cpath d='M210 486L209 711' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1162%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M51 430L50 1001' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1163%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M92 122L91 -355' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1163%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M234 754L233 1035' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1162%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M224 467L223 988' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1163%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M184 146L183 -345' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1163%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M238 672L237 319' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1163%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1161'%3e%3crect width='256' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1162'%3e%3cstop stop-color='rgba(202%2c 221%2c 8%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(202%2c 221%2c 8%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1163'%3e%3cstop stop-color='rgba(142%2c 28%2c 139%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(142%2c 28%2c 139%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.preview {
+  background-color: #040404;
 }
