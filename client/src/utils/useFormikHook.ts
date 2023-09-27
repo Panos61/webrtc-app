@@ -16,9 +16,7 @@ const CreateRoomSchema = Yup.object().shape({
     .required(),
 });
 
-const onSubmit = (values: any) => {
-  console.log(values);
-};
+const onSubmit = () => {};
 
 export const useFormikProps = () => {
   return useFormik({
